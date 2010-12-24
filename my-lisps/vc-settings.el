@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-10-09 10:51:53 Saturday by taoshanwen>
+;; Time-stamp: <2010-12-16 11:14:56 Thursday by work>
 
 (require 'vc+)
 
@@ -14,7 +14,7 @@
  `(emacs-lisp-mode-map c-mode-base-map sgml-mode-map
                        sh-mode-map text-mode-map conf-javaprop-mode-map
                        c++-mode-map image-mode-map makefile-gmake-mode-map
-                       org-mode-map nxml-mode-map python-mode-map perl-mode-map)
+                       nxml-mode-map python-mode-map perl-mode-map)
  `(("C-c L"   vc-print-log)
    ("C-c C-u" vc-update-and-revert-buffer)
    ("C-c C-b" vc-annotate)

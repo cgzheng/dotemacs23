@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-12-24 20:44:58 Friday by work>
+;; Time-stamp: <2010-12-15 11:09:10 Wednesday by work>
 
 (require 'multi-term)
 

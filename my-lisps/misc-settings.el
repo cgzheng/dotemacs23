@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-11-22 13:59:47 Monday by work>
+;; Time-stamp: <2010-12-16 13:51:26 Thursday by work>
 
 ;; This  file is free  software; you  can redistribute  it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -92,8 +92,19 @@
 (setq kept-old-versions 2)
 (setq kept-new-versions 5)
 (setq delete-old-versions t)
-(require 'backup-dir)
-(setq bkup-backup-directory-info
-      '((t "~/.emacs.d/backups/" ok-create full-path)))
+
+;; (require 'backup-dir)
+;; (setq bkup-backup-directory-info
+;;       '((t "~/.emacs.d/backups/" ok-create full-path)))
+
+
+(setq backup-directory-alist (quote ((".*" . "~/.emacs.d/backups"))))
+(setq backup-by-copying t)
+(setq backup-by-copying-when-linked t)
+(setq backup-by-copying-when-mismatch t)
+
+;; use backup directory
+
+(defconst use-backup-dir t)
 
 (provide 'misc-settings)

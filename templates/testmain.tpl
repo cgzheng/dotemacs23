@@ -1,6 +1,6 @@
 /* -*- C++ -*- */
 
-// Time-stamp: <03/31/2009 17:47:10 星期二 by ahei>
+// Time-stamp: <2010-12-24 20:47:15 Friday by work>
 
 #include <stdexcept>
 #include <fstream>

@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-12-15 11:09:10 Wednesday by work>
+;; Time-stamp: <2010-12-24 20:44:58 Friday by work>
 
 (require 'multi-term)
 
@@ -60,7 +60,7 @@
 
 (setq multi-term-switch-after-close nil)
 (setq multi-term-program "/bin/bash")
-(setq term-term-name "linux")
+;; (setq term-term-name "linux")
 ;; (setq term-unbind-key-list '("C-x" "<ESC>" "<up>" "<down>" "C-j"))
 ;; cg_zheng: I like to use <up> and <down> as send-term-up/down, so try not unbind it
  (setq term-unbind-key-list '("C-x" "<ESC>" "C-j"))

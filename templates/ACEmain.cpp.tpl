@@ -1,8 +1,8 @@
-// Time-stamp: <10/25/2007 17:53:53 星期四 by ahei>
+// Time-stamp: <2010-12-24 20:43:04 Friday by work>
 
 /**
  * @file (>>>FILE<<<)
- * @author ahei
+ * @author cgzheng
  */
 
 #include <iostream>

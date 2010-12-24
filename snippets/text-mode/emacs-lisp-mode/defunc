@@ -1,5 +1,5 @@
 #name : command template
-#contributor : ahei
+#contributor : cgzheng
 # --
 ;;;###autoload
 (defun ${1:name} ()

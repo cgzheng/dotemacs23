@@ -1,8 +1,8 @@
-;; Copyright (C) 2010 ahei
+;; Copyright (C) 2010 cgzheng
 
-;; Author: ahei <ahei0802@gmail.com>
+;; Author: cgzheng <cgzheng0802@gmail.com>
 ;; URL: http://code.google.com/p/dea/source/browse/trunk/my-lisps/(>>>FILE<<<)
-;; Time-stamp: <2010-04-09 10:59:01 Friday by ahei>
+;; Time-stamp: <2010-04-09 10:59:01 Friday by cgzheng>
 
 ;; This  file is free  software; you  can redistribute  it and/or
 ;; modify it under the terms of the GNU General Public License as

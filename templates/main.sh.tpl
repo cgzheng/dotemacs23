@@ -4,7 +4,7 @@
 
 # @file (>>>FILE<<<)
 # @version 1.0
-# @author ahei
+# @author cgzheng
 
 readonly PROGRAM_NAME="(>>>FILE<<<)"
 readonly PROGRAM_VERSION="1.0.0"

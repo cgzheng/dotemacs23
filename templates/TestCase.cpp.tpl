@@ -1,10 +1,10 @@
 /* -*- C++ -*- */
 
-// Time-stamp: <04/06/2009 10:49:00 星期一 by ahei>
+// Time-stamp: <04/06/2009 10:49:00 星期一 by cgzheng>
 
 /**
  * @file (>>>FILE<<<)
- * @author ahei
+ * @author cgzheng
  */
 
 #include "(>>>FILE_SANS<<<).h"

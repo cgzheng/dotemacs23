@@ -2,7 +2,7 @@
 
 ;; Author: ahei <ahei0802@gmail.com>
 ;; URL: http://code.google.com/p/dea/source/browse/trunk/my-lisps/org-settings.el
-;; Time-stamp: <2010-11-03 17:06:00 Wednesday by taoshanwen>
+;; Time-stamp: <2010-12-27 17:17:58 Monday by ssl>
 
 ;; This  file is free  software; you  can redistribute  it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -151,5 +151,14 @@
 
 (eval-after-load "org-colview"
   `(org-colview-settings))
+
+;; added by cg, from http://orgmode.org/guide/Activation.html#Activation
+
+;; The following lines are always needed.  Choose your own keys.
+(add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
+(add-hook 'org-mode-hook 'turn-on-font-lock) ; not needed when global-font-lock-mode is on
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cb" 'org-iswitchb)
 
 (provide 'org-settings)

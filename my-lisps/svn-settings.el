@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-09-04 22:23:54 Saturday by taoshanwen>
+;; Time-stamp: <2010-12-27 15:12:01 Monday by work>
 
 (require 'psvn)
 (require 'svn)
@@ -25,11 +25,11 @@
     def-execute-command-on-current-dir-command)
   `("svn add" "svn revert" "svn rm" "svn update" "svn resolved"))
 
-(eal-define-keys
- `(emacs-lisp-mode-map c-mode-base-map sgml-mode-map
-                       sh-mode-map text-mode-map conf-javaprop-mode-map
-                       c++-mode-map image-mode-map nxml-mode-map python-mode-map)
- `(("C-c l" svn-status-show-svn-log)))
+;; (eal-define-keys
+;;  `(emacs-lisp-mode-map c-mode-base-map sgml-mode-map
+;;                        sh-mode-map text-mode-map conf-javaprop-mode-map
+;;                        c++-mode-map image-mode-map nxml-mode-map python-mode-map)
+;;  `(("C-c l" svn-status-show-svn-log)))
 
 (eal-define-keys
  'svn-status-mode-map

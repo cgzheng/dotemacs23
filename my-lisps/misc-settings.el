@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-12-16 13:51:26 Thursday by work>
+;; Time-stamp: <2010-12-29 01:34:25 Wednesday by ssl>
 
 ;; This  file is free  software; you  can redistribute  it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -18,7 +18,7 @@
 ;; Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 ;; 个人信息
-(setq user-mail-address "cg_zheng@gmail.com")
+(setq user-mail-address "cg_zheng@126.com")
 (setq user-full-name    "cg_zheng")
 
 ;; 在fringe上显示一个小箭头指示当前buffer的边界

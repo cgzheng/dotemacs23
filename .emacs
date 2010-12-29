@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-12-29 12:01:01 Wednesday by ssl>
+;; Time-stamp: <2010-12-29 12:25:24 Wednesday by work>
 
 (defconst my-emacs-path           "~/emacs/" "我的emacs相关配置文件的路径")
 (defconst my-emacs-my-lisps-path  (concat my-emacs-path "my-lisps/") "我自己写的emacs lisp包的路径")
@@ -469,7 +469,7 @@ If FULL is t, copy full file name."
 (require 'wcy-desktop-settings)
 
 ;; show chinese holidays
-(require 'chinese-calendar)
+(require 'chinese-calendar-settings)
 
 ;; HACK: 要放在最后,免得会出现比较奇怪的现象
 ;; 保存和恢复工作环境

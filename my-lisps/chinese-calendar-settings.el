@@ -1,6 +1,10 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-12-29 11:58:05 Wednesday by ssl>
+;;; Local Variables: ***
+;;; coding: gbk ***
+;;; End: ***
+
+;; Time-stamp: <2010-12-29 12:29:23 Wednesday by work>
 
 (require 'cal-china-x)
 (setq mark-holidays-in-calendar t)
@@ -48,13 +52,11 @@ You can add this to your `calendar-holidays'.")
       ;; ^_^ 这部分嘛...保密啦
       ))
 
-(require 'cal-china-x)
+;; ;; 只显示我定制的节日
+;; (setq calendar-holidays holiday-wwliu-holidays)
+;; (setq christian-holidays nil) ;; 不显示基督教的节日
+;; (setq hebrew-holidays nil)    ;; 不显示希伯来人的节日
+;; (setq islamic-holidays nil)   ;; 不显示伊斯兰教的节日
 
-;; 只显示我定制的节日
-(setq calendar-holidays holiday-wwliu-holidays)
-(setq christian-holidays nil) ;; 不显示基督教的节日
-(setq hebrew-holidays nil)    ;; 不显示希伯来人的节日
-(setq islamic-holidays nil)   ;; 不显示伊斯兰教的节日
-
-(provide 'chinese-calendar)
+(provide 'chinese-calendar-settings)
 

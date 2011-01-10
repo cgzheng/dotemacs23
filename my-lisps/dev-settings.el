@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-11-21 02:38:06 Sunday by work>
+;; Time-stamp: <2011-01-10 13:04:36 Monday by ssl>
 
 ;; This  file is free  software; you  can redistribute  it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -226,5 +226,8 @@
 
 ;; Python IDE
 (require 'cg-python-settings)
+
+;; AutoHotKey Editting settings
+(require 'ahk-settings)
 
 (provide 'dev-settings)

@@ -2,7 +2,7 @@
 
 ;; Author: ahei <ahei0802@gmail.com>
 ;; URL: http://code.google.com/p/dea/source/browse/trunk/my-lisps/org-settings.el
-;; Time-stamp: <2010-12-28 20:23:48 Tuesday by ssl>
+;; Time-stamp: <2011-01-11 19:45:45 Tuesday by ssl>
 
 ;; This  file is free  software; you  can redistribute  it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -158,7 +158,14 @@
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 (add-hook 'org-mode-hook 'turn-on-font-lock) ; not needed when global-font-lock-mode is on
 (global-set-key "\C-cl" 'org-store-link)
-(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-c\C-x\C-a" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
+
+(setq org-agenda-files (list "~/org/work.org"
+                             "~/org/home.org"
+
+                             ))
+;; generarte slides with htmlslidy, see http://comments.gmane.org/gmane.emacs.orgmode/33464 for details.
+(require 'org-htmlslidy)
 
 (provide 'org-settings)

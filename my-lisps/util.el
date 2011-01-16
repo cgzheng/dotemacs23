@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-09-26 01:01:33 Sunday by taoshanwen>
+;; Time-stamp: <2011-01-16 18:18:30 Sunday by ssl>
 
 (require 'eval-after-load)
 
@@ -209,5 +209,14 @@ and COMMAND-off when IS-ON is nil."
   "Remove binding of KEY in map KEYMAP.
 KEY is a string or vector representing a sequence of keystrokes."
   (define-key keymap key nil))
+
+;; Let's use CYGWIN bash...
+;;
+(setq binary-process-input t) 
+(setq w32-quote-process-args ?\") 
+(setq shell-file-name "bash") ;; or sh if you rename your bash executable to sh. 
+(setenv "SHELL" shell-file-name) 
+(setq explicit-shell-file-name shell-file-name) 
+(setq explicit-sh-args '("-login" "-i"))
 
 (provide 'util)

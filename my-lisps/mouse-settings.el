@@ -1,6 +1,6 @@
 ;; -*- Emacs-Lisp -*-
 
-;; Time-stamp: <2010-04-10 15:55:06 Saturday by ahei>
+;; Time-stamp: <2011-01-16 15:13:05 Sunday by ssl>
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -27,5 +27,14 @@
    ("<down-mouse-1>"  mouse-drag-region-sb)
    ;; 使终端支持鼠标
    ("C-x T"            xterm-mouse-mode)))
+
+;; added by cgzheng, from http://emacser.com/torture-emacs.htm
+;; use Ctrl+ mouse whell to increase or decrease text scale
+;; For Linux
+(global-set-key (kbd "<C-mouse-4>") 'text-scale-increase)
+(global-set-key (kbd "<C-mouse-5>") 'text-scale-decrease)
+;; For Windows
+(global-set-key (kbd "<C-wheel-up>") 'text-scale-increase)
+(global-set-key (kbd "<C-wheel-down>") 'text-scale-decrease)
 
 (provide 'mouse-settings)
